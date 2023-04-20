@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Death_Aruban"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.6.0"
+			],
+			"dash": [
+				"0.10.8"
+			]
+		}
+	},
+	"header": {
+		"name": "Home +",
+		"description": "",
+		"min_engine_version": [
+			1,
+			19,
+			60
+		],
+		"uuid": "ef845228-15d6-4912-bf65-007d4076601d",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "e821ece5-5df2-4b85-9333-7d8cb2b06677",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "cdbc193e-94b8-40c5-8ec6-dafe6f0dbfef",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
