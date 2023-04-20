@@ -1,0 +1,45 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": ["Death_Aruban"],
+		"generated_with": {
+			"arucube": ["1.0.0"],
+			"dash": ["1.0.0"]
+		}
+	},
+	"header": {
+		"name": "Home +",
+		"description": "",
+		"min_engine_version": [1,19,60],
+		"uuid": "cdbc193e-94b8-40c5-8ec6-dafe6f0dbfef",
+		"version": [1,0,0]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "99c5feba-e2db-4394-bca6-02a59be3c7fc",
+			"version": [1,0,0]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "7aafd25e-7147-485a-8938-4507d12601b5",
+			"entry": "scripts/home.js",
+			"version": [1,0,0]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.1.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-gametest",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.0.0-beta"
+		}
+	]
+}
